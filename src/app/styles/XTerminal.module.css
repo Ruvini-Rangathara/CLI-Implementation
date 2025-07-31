@@ -1,0 +1,14 @@
+/* styles/XTerminal.module.css */
+.terminalContainer {
+    width: 100%;
+    height: 100%;
+    background-color: #1e1e1e;
+    padding: 16px;
+    box-sizing: border-box;
+  }
+  
+  .terminalWrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }

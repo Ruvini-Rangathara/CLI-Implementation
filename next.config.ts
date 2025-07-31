@@ -3,6 +3,7 @@ import type { NextConfig } from 'next';
 import path from 'path';
 
 const nextConfig: NextConfig = {
+  transpilePackages: ['xterm', 'xterm-addon-fit', 'xterm-addon-webgl'],
   reactStrictMode: true,
   webpack: (config) => {
     config.resolve.alias = {
